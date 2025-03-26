@@ -12,7 +12,7 @@ Conectar-se à planilha Google fornecida, realizar a ingestão, limpeza e transf
 
 ## 🧰 Tecnologias Utilizadas
 
-- Python 3.11
+- Python 3.12
 - pandas
 - gspread
 - re
@@ -29,12 +29,10 @@ Conectar-se à planilha Google fornecida, realizar a ingestão, limpeza e transf
 
 ```
 ├── src/
-│   └── etl_google_sheets.py      # Script principal de ETL
+│   └── ETL_TESTE_SOFTEX.py      # Script principal de ETL
 ├── sql/
 │   ├── create_table.sql          # Script de criação da tabela no SQL Server
 │   └── queries.sql               # Consultas SQL desenvolvidas
-├── data/
-│   └── export.csv                # Dados exportados após tratamento (opcional)
 └── README.md                     # Este documento
 ```
 
